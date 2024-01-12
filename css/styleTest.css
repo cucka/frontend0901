@@ -1,0 +1,89 @@
+body{
+    background: #ccc;
+    }
+    
+    div{
+    color:yellow;
+    }
+    ul{
+    color: red;
+    }
+    p{
+    text-align: center;
+    }
+    
+    /*select by class. Use in CSS*/
+    .blue{
+    background: rgb(74, 74, 155);
+    color:burlywood;
+    }
+    
+    
+    /*select item by id. Id are used in JS*/
+    #pink{
+    background: pink;
+    color: aquamarine;
+    }
+    
+    .manyStyles{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background: #fff;
+    border: 2px solid #000;
+    text-align: right;
+    padding: 10px;
+    margin: 50px;
+    }
+    
+    .el{
+    background: olive;
+    color:#fff;
+    padding: 30px 100px 50px 20px;
+    margin: 50px 200px;
+    opacity: 0.5; /* от 0 до 1 приема стойности*/
+    }
+    
+    span{
+    color: red;
+    font-size: 30px;
+    }
+    
+    .green{
+    color: green;
+    }
+    .class2{
+    color: yellow;
+    }
+    .square {
+    height: 100px;
+    width: 100px;
+    background: blue;
+    text-align: center;
+    }
+    .circle {
+    height: 100px;
+    width: 100px;
+    background: #c6e12e;
+    border-radius: 100px; /* или 50% пишем*/
+    text-align: center;
+    line-height: 100px;
+    
+    }
+    
+.imgHolder{
+    background: coral;
+}
+
+    .imgHolder img{ /* първо е родителя и после детето пишем. imgHolder после img*/
+    width: 300px;
+    float:left ;
+    }
+    
+    .imgHolder .blue1{ /* може и само класът дете да избера, ако е с различно име от предходни */
+    color: #c6e12e;
+    /* background: #fff;*/
+    }
+    .clear{
+    clear: both;
+    }
